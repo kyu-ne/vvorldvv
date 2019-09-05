@@ -60,8 +60,8 @@ header #header-bar > .row,
 
 /* nav box category distribute */
 #main .menu-wrapper .spacer {
-  background: var(--color-4);
-  height: 6px;
+  background: #f8f8f8;
+  height: 3px;
 }
 
 /* main shadow */
@@ -110,6 +110,13 @@ header #header-bar > .row {
     line-height: 1;
     margin: 0 0 1em;
     padding: 1em;
+}
+* {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
 }
 
 /* viewers */
