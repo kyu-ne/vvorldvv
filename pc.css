@@ -42,16 +42,22 @@ header #header-bar #header-top-notice strong.notice-badge {
     background: ; 
 }
 
-/* tgd menu box */
-#main .menu-wrapper > .header {
+
+#main .menu-wrapper::before {
     background: var(--color-3);
-    color: var(--color-0); padding: 0.45em 1.4em 0.45em 1em; font-weight: bold; border-radius: 8px 8px 0 0;}
-#main .menu-wrapper > a > em { color: var(--color-3);}
-#main .menu-wrapper > a > i.fa.fa-square { color:var(--color-3); }
-/* 스케줄은 개별적용 */
-#main .menu-wrapper > .header > a {
-  color: var(--color-0);
+    background-repeat: repeat-x;
+    background-size: 12px 35px;
+    border-radius: 25px 25px 0 0;
+    position: absolute;
+    color: white;
+    padding: 0.4em 1em 0 1em;
+    text-align: center;
+    font-weight: bold;
+    left: 0px;
+    width: calc(100%);
+    height: 35px;
 }
+
 
 /* remove nav box border */
 header #header-bar > .row,
