@@ -69,7 +69,14 @@ header #header-bar > .row,
 }
 
 /* main shadow */
-header #header-bar > .row {
+#main #main-content>div.frame {
+    background: #fff;
+    border-right: 2px solid #ebeae8;
+    border-bottom: 2px solid #ebeae8;
+}
+
+/* main shadow */
+/* header #header-bar > .row {
   box-shadow: 3px 0px 5px rgba(0, 02, 22, 0.2);
   border-radius: 15px 15px 15px 15px;
 }
