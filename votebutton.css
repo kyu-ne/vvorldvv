@@ -1,161 +1,64 @@
-.vote-btn[data-type="up"] {
-
-    border: none;
-  
-    font-size: 0;
-  
-  }
-  
-  
-  
-  .vote-btn[data-type="up"]:hover {
-  
-    background: none !important;
-  
-  }
-  
-  
-  
-  .vote-btn[data-type="up"]::before {
-  
-    display: inline-block;
-  
-    background: white;
-  
-    border: solid #5cb85c 1px;
-  
-    float: left;
-  
-    width: 50px;
-  
-    height: 50px;
-  
-    border-radius: 50px;
-  
-    font-size: 26pt;
-  
-    content: "\f087";
-  
-    padding-top: 17px;
-  
-    padding-left: 2px;
-  
-    font: normal 22px/1 FontAwesome;
-  
-    -moz-transition:color .2s ease;
-  
-    -o-transition:color .2s ease;
-  
-    -ms-transition:color .2s ease;
-  
-    -webkit-transition:color .2s ease;
-  
-    transition:color .2s ease;
-  
-  }
-  
-  
-  
-  .vote-btn[data-type="up"]:hover::before {
-  
-    background: #5cb85c;
-  
+.vote-btn[data-type="up"]:hover::before {
+    background: #91faa7;
     color: white;
-  
-  }
-  
-  
-  
-  .vote-btn[data-type="up"] span {
-  
-    float: left;
-  
-    padding-top: 14px;
-  
-    padding-left: 15px;
-  
-    font-size: 22px;
-  
-    color: #5cb85c;
-  
-  }
-
-
-
-
-.vote-btn[data-type="down"] {
-    border: none;
-    font-size: 0;
-
 }
-  .vote-btn[data-type="down"]:hover {
-  
-    background: none !important;
-  
-  }
-  
-  
-  
-  .vote-btn[data-type="down"]::before {
-  
+.vote-btn[data-type="up"]::before {
     display: inline-block;
-  
     background: white;
-  
-    border: solid #5cb85c 1px;
-  
+    border: solid #2de454 1px;
+    color: #2de454;
     float: left;
-  
-    width: 50px;
-  
-    height: 50px;
-  
-    border-radius: 50px;
-  
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
     font-size: 26pt;
-  
-    content: "\f088";
-  
+    content: "\f164";
     padding-top: 17px;
-  
     padding-left: 2px;
-  
     font: normal 22px/1 FontAwesome;
-  
-    -moz-transition:color .2s ease;
-  
-    -o-transition:color .2s ease;
-  
-    -ms-transition:color .2s ease;
-  
-    -webkit-transition:color .2s ease;
-  
-    transition:color .2s ease;
-  
-  }
-  
-  
-  
-  .vote-btn[data-type="down"]:hover::before {
-  
-    background: #5cb85c;
-  
+    -moz-transition: color .2s ease;
+    -o-transition: color .2s ease;
+    -ms-transition: color .2s ease;
+    -webkit-transition: color .2s ease;
+    transition: color .2s ease;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+
+.vote-btn[data-type="down"]:hover::before {
+    background: #b8d6ff;
     color: white;
-  
-  }
-  
-  
-  
-  .vote-btn[data-type="down"] span {
-  
+}
+.vote-btn[data-type="down"]::before {
+    display: inline-block;
+    background: white;
+    border: solid #388cff 1px;
+    color: #388cff;
     float: left;
-  
-    padding-top: 14px;
-  
-    padding-left: 15px;
-  
-    font-size: 22px;
-  
-    color: #5cb85c;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    font-size: 26pt;
+    content: "\f165";
+    padding-top: 17px;
+    padding-left: 2px;
+    font: normal 22px/1 FontAwesome;
+    -moz-transition: color .2s ease;
+    -o-transition: color .2s ease;
+    -ms-transition: color .2s ease;
+    -webkit-transition: color .2s ease;
+    transition: color .2s ease;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
   
 
