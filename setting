@@ -2,16 +2,16 @@
   --color-0: #ffffff; /* box color */
 
   --color-1: #fee9ec; /* 옅은 분홍색 */
-  --color-2: #fae2e6; /* 흰색에 가까운 분혼색 */
+  --color-2: #eee2fa; /* 흰색에 가까운 푸른색 */
   --color-3: #ff3f46; /* main color */
   --color-4: #ff7a7a; /* sub  color */
-https://github.com/kyunetic/vvorldvv.git  --color-5: #ffd800; /* yellow */
+  --color-5: #ffaeb5; /* 1과 4사이 분홍색 */
 
-  --logo-URL: url("https://jayppo.github.io/CSS/source/CI.png");
-  --logo-Width: 158px;
-  --logo-Height: 50px;
+  --logo-URL: url("https://upload.tgd.kr/20180921/37e7aadfae602e39fddfb5172125109f.png");
+  --logo-Height: 60px;
   --logo-size-mobile: 90px 32px;
 
-  --icon-URL: url("https://jayppo.github.io/CSS/source/icon.png");
+  --icon-URL: url("https://3.bp.blogspot.com/-gmX3Y_0jsoM/W6NvmAaUDOI/AAAAAAAAAME/ILPUW4pjgugQWk47-1TrPdmXWj0hI8KdgCLcBGAs/s1600/%25EC%25BB%25A4%25EA%25B5%25B4.png");
   --sub-comment: "의 흑우들";
 }
+  --logo-Width: 158px;
