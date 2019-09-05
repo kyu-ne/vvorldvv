@@ -16,6 +16,10 @@ header .row > div:nth-child(1) > a img {
     display:none; 
 }
 
+header {
+    padding: 1.5em 0;
+}
+
 /* DefaultColor */
 header #header-bar { margin-top: 0.3em; margin-bottom: 1em; padding-right: 30px; padding-left: 30px; }
 
