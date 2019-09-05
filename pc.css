@@ -124,27 +124,10 @@ header #header-bar > .row,
 #board-info #viewers-area #viewers:after { content: var(--sub-comment); cursor : text; }
 
 /* profile border */
-/* #board-info #board-info-profile-img { border: 0px solid var(--color-4); border-radius: 100%; width: 80px; height: 80px; }
+#board-info #board-info-profile-img { border: 0px solid var(--color-4); border-radius: 100%; height: auto; }
 
 /* badge at viewer box */
 #board-info #viewers-area .fa-user:before { color: rgba(95,02,22,0); content: var(--icon-URL); }
-
-/* profile pic */
-#board-info {
-    width: 100%;
-    height: 64px;
-    overflow: hidden;
-    line-height: 1;
-    margin: 0 0 1em;
-    padding: 1em;
-}
-* {
-    box-sizing: border-box;
-}
-
-div {
-    display: block;
-}
 
 /* ButtonAnim */
 .btn-primary { background: var(--color-4); border-color: var(--color-1); }
