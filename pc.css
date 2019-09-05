@@ -95,7 +95,7 @@ header #header-bar > .row {
 /* category background */
 #article-list #article-list-category { border-top: 3px solid var(--color-3); background: var(--color-0); }
 
-#article-reply-area #reply-real-area .reply > .reply-header { background: var(--color-5); }
+#article-reply-area #reply-real-area .reply > .reply-header { background: #f8f8f8; }
 #article-reply-area > .header h5 { font-size: 14px; color: var(--color-1); font-weight: bold; }
 
 /* like highlighter */
