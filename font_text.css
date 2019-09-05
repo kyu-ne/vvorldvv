@@ -1,10 +1,12 @@
+
+/* 고양 일산체 */
 @font-face { 
-	font-family: 'netmarbleL'; 
-	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.1/netmarbleL.woff') format('woff'); 
-	font-weight: normal; 
-	font-style: normal; 
+    font-family: 'GoyangIlsan'; 
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GoyangIlsan.woff') format('woff'); 
+    font-weight: normal; 
+    font-style: normal; 
 }
 
 * {
-    font-family: 'netmarbleL';
+    font-family: 'GoyangIlsan';
 }
