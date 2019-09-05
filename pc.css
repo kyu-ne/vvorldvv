@@ -20,7 +20,7 @@ header #header-bar { margin-top: 0.3em; margin-bottom: 1em; padding-right: 30px;
 
 /* header-bar */
 header #header-bar > .row {
-    padding-top: 3em; padding-bottom: 0.3em; border-top: 4px solid var(--color-3);
+    padding-top: 1em; padding-bottom: 0.3em; border-top: 4px solid var(--color-3);
     background: var(--color-0);
     border-bottom: 2px solid var(--color-5); border-right: 2px solid var(--color-5) }
 
